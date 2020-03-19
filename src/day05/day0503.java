@@ -19,16 +19,16 @@ public class day0503 {
 	public static void main(String[] args) {
 		int[] arr = new int[4];
 		int[] check = new int[4]; 
-		//arr와 index가 같으며 arr배열  값이 결정된 경우 1 , 안된경우 0
+		//check[0]은 1을 뜻함, check[1]은 숫자 2를 뜻함, check[2]은 숫자 3를 뜻함, check[3]은 숫자 4를 뜻함
+		//check배열 안에는 0 or 1만 들어가며 1이 들어간 경우 그 배열에 의미되는 숫자가 사용됨 
 		
 		int index =0;
 		Scanner scan = new Scanner(System.in);
 		
 		//arr배열에 1~4 사이의 숫자를 중복없이 저장
 		while(index<4) {
-			int r=(int)(Math.random()*4); // index-ranndom
-			if(check[r]==0) { // 값이 0 이면 해당 위치의 arr값 설정 안됨
-				check[r]= 1; 
+			int r=(int)(Math.random()*4); //check[index]-ranndom
+			if(check[r]==0) { // 값이 0 이면 check[r] 위치의  (r+1)값 사용안됨				check[r]= 1; 
 				arr[index] = r+1; // 값은 1~4이므로
 				index += 1; //값이 저장되면 arr의 index 증가
 			}
