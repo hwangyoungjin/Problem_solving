@@ -1,6 +1,6 @@
 package java_jungsuk3_PracticeProblem;
 
-
+/*via 6_4*/
 class Student1{
 	String name;
 	int ban;
