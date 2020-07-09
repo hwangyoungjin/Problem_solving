@@ -14,7 +14,7 @@ package java_jungsuk3_PracticeProblem;
 class SutdaDeck{
 	final int CARD_NUM = 20;
 	SutdaCard[] cards = new SutdaCard[CARD_NUM];
-	SutdaDeck(){
+	SutdaDeck(){ // 섯다카드 생성
 		for(int i=0; i<cards.length; i++) {
 			int num = i%10+1;
 			boolean isKwang = (i<10) && (num==1||num==3||num==8);
@@ -46,20 +46,24 @@ class SutdaDeck{
 	
 }//sutdaDeck
 
-
+// 생성되면 숫자와 iskwang는 바뀌면 안된다.
 class SutdaCard{
-	int num;
-	boolean isKwang;
+	final int NUM;
+	final boolean IS_KWNAG;
 	
 	SutdaCard(){
 		this(1,true);
 	}
+	
+	//원래 final 변수는 선언과 동시에 초기화 해야하지만
+	//인스턴스 변수의 경우 선언시 초기화 하지않고 생성자에서 초기화한다.
+	//상수이므로 생성시 초기화 하면 이후 다신 바꿀 수 없다.
 	SutdaCard(int num, boolean isKwang){
-		this.num = num;
-		this.isKwang = isKwang;
+		this.NUM = num;
+		this.IS_KWNAG = isKwang;
 	}
 	public String toString() {
-		return num + (isKwang ? "K":"");
+		return NUM + (IS_KWNAG ? "K":"");
 	}
 }
 public class Exercise7_1 {
