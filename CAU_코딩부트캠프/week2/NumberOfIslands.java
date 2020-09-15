@@ -3,8 +3,6 @@ package week2;
 /**
  * 섬의 개수 찾기
  * 
- * 
- * 
  * 예제) 
  * [“1”, “1”, “1”, “1”, “0”], 
  * [“1”, “1”, “0”, “1”, “0”], 
@@ -32,7 +30,6 @@ public class NumberOfIslands {
 	static void search(String[][] island, int curX, int curY) {
 		// 해당 위치 방문
 		visitCheck[curY][curX] = true;
-		System.out.println("방문한 x좌표 : "+curX+", y좌표 : "+curY);
 		
 		for (int i = 0; i < direction.length; i++) {
 			int nextX = curX + direction[i][1];
@@ -45,7 +42,6 @@ public class NumberOfIslands {
 				if (visitCheck[nextY][nextX] == false
 					&& island[nextY][nextX].equals("1")) {
 					// 다음 위치에서 다시 검사
-					System.out.println("x좌표 : "+nextX+"와, y좌표 : "+nextY+"에서 다시 탐색");
 					search(island, nextX, nextY);
 				} // if end
 			} // if end
@@ -53,7 +49,7 @@ public class NumberOfIslands {
 	}
 
 	public static void main(String[] args) {
-		//섬이 3개인 배열
+		//섬이 6개인 배열
 		String[][] island1 = new String[][]{{"1", "1", "0", "1", "0"},
 			{"1", "1", "0", "0", "1"},
 			{"0", "0", "1", "0", "0"},
@@ -65,7 +61,7 @@ public class NumberOfIslands {
 		for(int y=0; y<island1.length; y++) {
 			for(int x=0; x<island1[0].length; x++) {
 				//방문하지 않았고, 1이면
-				if(visitCheck[y][x]==false && island1[y][x].equals("1")) {
+				if(visitCheck[y][x]==false && island1[y][x].equals("1")) { 
 					islandCount++;
 					search(island1,x,y);
 				}
