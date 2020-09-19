@@ -67,7 +67,7 @@ public class TrappingRainwater {
 		
 		
 		//최종 물의 양 구하기
-		//Add min(leftMax[i]+rightMax[i]) - height[i]
+		//Add min(leftMax[i],rightMax[i]) - height[i]
 		int count = 0; //최종 물의양을 구할 변수 
 		for(int i=0; i<height.length; i++) {
 			count += Math.min(leftMax[i], rightMax[i]) - height[i];
