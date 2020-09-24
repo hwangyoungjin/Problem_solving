@@ -9,3 +9,8 @@
 	- 일정 간격 병합(collections+BIG_O)**완료**
 2. Level 3
 	- 고인 물의 양 계산하기(leetcode 42)**완료**
+
+[Week 3]
+---
+1. 프로그래머스 데모테스트 직사각형 만들기 문제
+	- Solution.java
