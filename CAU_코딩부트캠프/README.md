@@ -1,5 +1,21 @@
 # CAU 코딩부트캠프_sol)
 ---
+[Baekjoon_sol]
+---
+- Arrays and String
+- Fundamental Data Structure
+	- Linked Lists
+	- Stack & Queue
+- Trees and Graphs
+	- Binary Tree
+	- DFS & BFS
+- Sorting & Search
+	- Sort (n long n) – quicksort or merge sort
+	- Binary Search
+- Optimization
+	- Greedy Algorithm 
+	- Dynamic Programming
+
 ---
 [Programmers_sol]
 	- 배열
