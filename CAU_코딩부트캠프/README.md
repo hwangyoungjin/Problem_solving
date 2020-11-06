@@ -6,15 +6,16 @@
 - Fundamental Data Structure
 	- Linked Lists
 	- Stack & Queue
+	- heap
 - Trees and Graphs
 	- Binary Tree
 	- DFS & BFS
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
-	- Binary Search
+	- **Binary Search**
 - Optimization
-	- Greedy Algorithm 
-	- Dynamic Programming
+	- **Greedy Algorithm** : 
+	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선 
 
 ---
 [Programmers_sol]
