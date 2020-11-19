@@ -10,6 +10,7 @@
 - Trees and Graphs
 	- Binary Tree
 	- DFS & BFS
+		- 백준2606번 : 바이러스
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
 	- **Binary Search**
