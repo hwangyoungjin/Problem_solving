@@ -14,6 +14,7 @@
 		- [**DFS**] 백준 4963번 : 섬의개수
 		- [**DFS**] 백준 11724번 : 연결 요소의 개수
 		- [**DFS**] 백준 11725번 : 트리의 부모 찾기
+		- [**BFS**] 백준 
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
 	- **Binary Search**
