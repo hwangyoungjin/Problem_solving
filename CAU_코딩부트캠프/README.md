@@ -11,10 +11,10 @@
 	- Binary Tree
 	- DFS & BFS
 		- [**DFS**] 백준 2606번 : 바이러스 - **Graph 이용하여** dfs 알고리즘 사용
-		- [**DFS**] 백준 4963번 : 섬의개수 - **Graph 없이** dfs 알고리즘만 사용
+		- [**DFS**] 백준 4963번 : 섬의개수 - **Graph 없이** visit 이차원배열로 dfs 알고리즘만 사용
 		- [**DFS**] 백준 11724번 : 연결 요소의 개수 - **Graph 이용하여** dfs 알고리즘 사용
 		- [**DFS**] 백준 11725번 : 트리의 부모 찾기 - **Graph 이용하여** dfs 알고리즘 사용
-		- [**BFS**] 백준 7576번 : 토마토 - **Graph, visit 없이** bfs 알고리즘 사용
+		- [**BFS**] 백준 7576번 : 토마토 - **Graph없이** visit 이차원배열로 bfs 알고리즘 사용
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
 	- **Binary Search**
