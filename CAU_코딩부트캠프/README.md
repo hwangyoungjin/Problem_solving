@@ -18,7 +18,8 @@
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
 	- **Binary Search**
-		- [**이분탐색**] 백준 2805번 : 나무자르기 
+		- [**이분탐색**] 백준 2805번 : 나무자르기  - 일차원 배열로 이분탐색 알고리즘 사용
+		- [**이분탐색**] 백준 1300번 : k번째숫자 - Binary Search 알고리즘을 생각하기 정말 힘든 문제
 - Optimization
 	- **Greedy Algorithm**  : 그 순간 순간마다 최선이라고 생각하는 방향으로 결정하는 방식 
 	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선 
