@@ -18,6 +18,7 @@
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
 	- **Binary Search**
+		- [**이분탐색**] 백준 2805번 : 나무자르기 
 - Optimization
 	- **Greedy Algorithm**  : 그 순간 순간마다 최선이라고 생각하는 방향으로 결정하는 방식 
 	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선 
