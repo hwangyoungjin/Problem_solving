@@ -1,5 +1,6 @@
 # CAU 코딩부트캠프_sol)
 ---
+
 [Baekjoon_sol]
 ---
 - Arrays and String
@@ -24,21 +25,21 @@
 	- **Greedy Algorithm**  : 그 순간 순간마다 최선이라고 생각하는 방향으로 결정하는 방식 
 	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선 
 
+[Programmers_sol]
 ---
-[Programmers_sol - DP 이외로 많이 풀어볼것]
-	- 해시
-	- 스택/큐
-	- 힙
-	- 완전탐색(브루트포스 알고리즘)
-	- 탐욕법(Greedy)
-	- DFS/BFS
-	- 이분탐색 (Binary search)
-	- 그래프 
-	- 정렬 (Sorting)
-	- 배열 
-	- 동적계획법(Dynamic Programming)
+- 해시
+- 스택/큐
+- 힙
+- 완전탐색(브루트포스 알고리즘)
+- 탐욕법(Greedy)
+- DFS/BFS
+- 이분탐색 (Binary search)
+	- [**입국심사**] : min, max, mid변수 long타입 중요, int->long 형변환 생략불가했음
+- 그래프 
+- 정렬 (Sorting)
+- 배열 
+- 동적계획법(Dynamic Programming)
 	
----
 [Week 2]
 ---
 1. Level 2
