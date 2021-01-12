@@ -3,6 +3,8 @@
 
 [Baekjoon_sol]
 ---
+- Hash
+	- [**HashMap**] 백준 1157번 : 단어공부
 - Arrays and String
 - Fundamental Data Structure
 	- Linked Lists
@@ -28,7 +30,7 @@
 [Programmers_sol]
 ---
 - 해시
-	- [**완주하지 못한 선수**]
+	- [**완주하지 못한 선수**] HashMap 이용
 - 스택/큐
 - 힙
 - 완전탐색(브루트포스 알고리즘)
