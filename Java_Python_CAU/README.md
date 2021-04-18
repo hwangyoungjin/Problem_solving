@@ -25,8 +25,10 @@
 		- [**이분탐색**] 백준 1300번 - **java** : k번째숫자 - Binary Search 알고리즘을 생각하기 정말 힘든 문제
 - Optimization
 	- **Greedy Algorithm**  : 그 순간 순간마다 최선이라고 생각하는 방향으로 결정하는 방식 
-	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선 
-
+	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선
+		- [**동전문제**] 백준 2294번 - **Java** : DP 동전문제 (참고 : Integer.MAX_VALUE-1 으로 사용)
+- DivideAndConquer
+	- [****] 백준 14601번 - **java** : 샤워실 바닥 깔기 (Large) - 
 
 [Programmers_sol]
 ---
