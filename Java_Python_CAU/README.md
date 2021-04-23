@@ -10,25 +10,29 @@
 	- Linked Lists
 	- Stack & Queue
 	- heap
-- Trees and Graphs
-	- Binary Tree
-	- DFS & BFS
-		- [**DFS**] 백준 2606번 - **java** : 바이러스 - **Graph 이용하여** dfs 알고리즘 사용
-		- [**DFS**] 백준 4963번 - **java** : 섬의개수 - **Graph 없이** visit 이차원배열로 dfs 알고리즘만 사용
-		- [**DFS**] 백준 11724번 - **java** : 연결 요소의 개수 - **Graph 이용하여** dfs 알고리즘 사용
-		- [**DFS**] 백준 11725번 - **java** : 트리의 부모 찾기 - **Graph 이용하여** dfs 알고리즘 사용
-		- [**BFS**] 백준 7576번 - **java** : 토마토 - **Graph없이** visit 이차원배열로 bfs 알고리즘 사용
+	
 - Sorting & Search
 	- Sort (n long n) – quicksort or merge sort
-	- **Binary Search**
-		- [**이분탐색**] 백준 2805번 - **java** : 나무자르기  - 일차원 배열로 이분탐색 알고리즘 사용
-		- [**이분탐색**] 백준 1300번 - **java** : k번째숫자 - Binary Search 알고리즘을 생각하기 정말 힘든 문제
+	- Divide And Conquer
+		- [****] 백준 14601번 - **java** : 샤워실 바닥 깔기 (Large) 
+		
+		- Binary Search
+			- [**이분탐색**] 백준 2805번 - **java** : 나무자르기  - 일차원 배열로 이분탐색 알고리즘 사용
+			- [**이분탐색**] 백준 1300번 - **java** : k번째숫자 - Binary Search 알고리즘을 생각하기 정말 힘든 문제
+	- DFS & BFS
+		- Graph
+			- [**DFS**] 백준 2606번 - **java** : 바이러스 - **Graph 이용** dfs 알고리즘 사용
+			- [**DFS**] 백준 11724번 - **java** : 연결 요소의 개수 - **Graph 이용** dfs 알고리즘 사용
+			- [**DFS**] 백준 11725번 - **java** : 트리의 부모 찾기 - **Graph 이용** dfs 알고리즘 사용
+			- [**DFS**] 백준 2458번 - **java** : 키 순서 - **단방향 graph 2개 이용** dfs 알고리즘 사용
+		- Matrix
+			- [**DFS**] 백준 4963번 - **java** : 섬의개수 - **2차원 배열 이용** visit 이차원배열로 dfs 알고리즘만 사용
+			- [**DFS**] 백준 2667번 - **java** : 단지번호 붙이기 - **2차원배열 이용** dfs 알고리즘 사용
+			- [**BFS**] 백준 7576번 - **java** : 토마토 - visit 이차원배열로 bfs 알고리즘 사용
 - Optimization
 	- **Greedy Algorithm**  : 그 순간 순간마다 최선이라고 생각하는 방향으로 결정하는 방식 
 	- **Dynamic Programming** : Recursion문제를 dynamic으로 성능개선
 		- [**동전문제**] 백준 2294번 - **Java** : DP 동전문제 (참고 : Integer.MAX_VALUE-1 으로 사용)
-- DivideAndConquer
-	- [****] 백준 14601번 - **java** : 샤워실 바닥 깔기 (Large) - 
 
 [Programmers_sol]
 ---
